@@ -9,7 +9,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     
-    - uses: steps:actions/upload-pages-artifact@v3
+    - uses: actions/checkout@v4
 
     - name: 环境变量配置
       run: |
