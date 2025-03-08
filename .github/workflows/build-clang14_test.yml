@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-22.04
     if: github.event.repository.owner.id == github.event.sender.id
 
-    steps:
-    - uses: actions/checkout@v4
+    steps:actions/upload-pages-artifact@v3
+    - uses: 
 
     - name: 环境变量配置
       run: |
